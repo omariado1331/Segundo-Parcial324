@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('logo.jpg');
+}
+
+.cabecera {
+	background: #24303c;
+	padding: 10px;
+	font-family: 'calibri';
+}
+
+.cabecera img{
+	width: 100px;
+}
+
+.cabecera h1{
+	color: white;
+	float: right;
+}
+
+.cabecera h2{
+	font-size: 20px;
+	color: white;
+	float: unset;
+}
+
+.formulario{
+	width: 400px;
+	background: #24303c;
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 8px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+.formulario h1{
+	text-align: center;
+	font-size: 30px;
+}
+
+.formulario h2{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.controles{
+	width: 100%;
+	background: #243000;
+	padding: 10px;
+	border-radius: 6px;
+	margin-bottom: 1px;
+	border: 3px solid #ffffff;
+	font-family: 'calibri';
+	font-size: 18px;
+}
+
+.boton{
+	width: 100%;
+	background: #ffffff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: black;
+	margin: 16px 0;
+	font-size: 16px;
+	margin: auto;
+	overflow: hidden;
+	transform: 0.2s;
+}
+
+.boton:hover{
+	background: #30baff;
+	box-shadow: 0 0 10px #30baff, 0 0 20px #30baff;
+}
+
+.cont-botones{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.boton2{
+
+	float: unset;
+	width: 200px;
+	background: #ffffff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: black;
+	margin: 16px 0;
+	font-size: 16px;
+	margin: auto;
+	overflow: hidden;
+	transform: 0.2s;
+}
+.boton2:hover{
+	background: #30baff;
+	box-shadow: 0 0 10px #30baff, 0 0 20px #30baff;
+}
+
+.datos{
+	padding: 15px;
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 300px;
+	background: #24303c;
+	color: white;
+	font-family: 'calibri';
+}
+
+.datos h3{
+	color: red;
+	text-align: center;
+	font-size: 20px;
+}
+
+.datos p{
+	padding: 3px;
+}
+
+.datos h4{
+	font-size: 20px;
+	color: #30baff;
+}
+
+.tablas{
+	margin: auto;
+	border-radius: 10px;
+	background: #24303c; 
+	margin-top: 20px;
+	width: 300px;
+	padding: 20px;
+}
+
+.tablas h3{
+	color: red;
+	text-align: center;
+	font-size: 25px;
+}
+.tablas table{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: white;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.tablas th, td{
+	font-size: 18px;
+	
+	padding: 3px;
+}
+
+.tablas thead{
+	
+	border-bottom: solid 5px black;
+	background: #30baff;
+}
+
+.tablas tr:nth-child(even){
+	background: #ddd;
+	overflow: hidden;
+	transform: 0.2s;
+}
+
+.tablas tr:hover{
+	background: #24303c;
+	color: white; 
+}
+
+.tablas1{
+	margin: auto;
+	border-radius: 10px;
+	background: #24303c; 
+	margin-top: 20px;
+	width: 500px;
+	padding: 20px;
+}
+
+.tablas1 h3{
+	color: red;
+	text-align: center;
+	font-size: 25px;
+}
+.tablas1 table{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: white;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.tablas1 th, td{
+	font-size: 18px;
+	
+	padding: 3px;
+}
+
+.tablas1 thead{
+	
+	border-bottom: solid 5px black;
+	background: #30baff;
+}
+
+.tablas1 tr:nth-child(even){
+	background: #ddd;
+	overflow: hidden;
+	transform: 0.2s;
+}
+
+.tablas1 tr:hover{
+	background: #24303c;
+	color: white; 
+}
